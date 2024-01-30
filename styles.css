@@ -1,0 +1,88 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}    
+header{
+    font-size: 50px;
+    text-align: center;
+}
+*{
+    background-color:rgb(216, 183, 130);
+}
+body ol{
+    text-align: center;
+}
+table{
+    margin-top: 2%;
+    border: solid rgb(2, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.aboutp{
+    vertical-align: middle;
+    padding-top: 0%;
+    padding-left: 0.1%;
+    padding-right: 0.1%;
+}
+
+td, tr{
+    border: solid rgb(2, 0, 0);
+    border-width: 2px;
+    line-height: 2px;
+    padding: 0%;
+}
+
+.about{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    text-align: center;
+    background-color: rgb(167, 135, 78);
+}
+mark{
+    background-color: rgb(167, 135, 78);
+}
+
+.h1{
+    font-size: larger;
+}
+
+h1{
+    text-align: center;
+    padding-top: 2%;
+}
+a{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-left: 1%;
+}
+.paint{
+    font-size: larger;
+    padding-left: 20%;
+    padding-right: 20%;
+}
+.paints{
+    font-size: larger;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-bottom: 10%;
+}
+.pooper{
+    padding-left: 20%;
+    padding-top: 5%;
+    font-size: 30px;
+    padding-bottom: 5%;
+}
+.helo{
+    font-size: 30px;
+    background-color: rgb(167, 135, 78);
+}
+::placeholder{
+    color: black;
+}

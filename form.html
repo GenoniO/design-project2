@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Viewers Form</title>
+    </head>
+                <header>
+                    <h1><mark>_________VIEWERS FORM________</mark></h1>
+                </header>
+    <link rel="stylesheet" href="styles.css">
+    <body >
+        <center>
+            <a href="BioEntry.html">Biographies  .</a>
+            <a href="Materials.html">OG Materials  .</a>
+            <a href="Materials.html">OG Materials  .</a>
+            <a href="Index.html">HOME</a>
+            </center>
+
+        <form class="pooper">
+            <label for="username">Enter name</label>
+            <input type="text" name="username" id="username" placeholder="Enter Username"Required class="helo">
+            <br>
+            <br>
+            <label for="email">Enter Email Adress</label>
+            <input type="email" name="email" id="email"placeholder="Enter Email"Required class="helo">
+            <br>
+            <br>
+            <p>Rating</p>
+            <input type="radio" name="radio" id="option 1" value="purple" class="helo">
+            <label for="option-1">EXCELLENT</label>
+            <input type="radio" name="radio" id="option 2" value="Blue" class="helo">
+            <label for="option-2">Alright</label>
+            <input type="radio" name="radio" id="option 3" value="Green" class="helo">
+            <label for="option-3">COULD BE BETTER</label>
+            <br>
+            <br>
+            <label for="question">Select your favorite Artist</label>
+            <select name="question" id="question" class="helo" Required>
+                <option value="q1">Leonardo Da Vinci</option>
+                <option value="q2">Michelangelo</option>
+                <option value="q3">Johannes Vermeer</option>
+                <option value="q4">Paul Cezane</option>
+                <option value="q5">Claude Monet</option>
+                <option value="q6">Vincent Van Gogh</option>
+                <option value="q7">Gustav Klimt</option>
+                <option value="q8">Henri Matisse</option>
+                <option value="q9">Pablo Picasso</option>
+                <option value="q10">Georgia O'Keefe</option>
+                <option value="q11">Salvador Dali</option>
+                <option value="q12">Jackson Pollock</option>
+                <option value="q13">Yayoi Kusama</option>
+                <option value="q14">Andy Warhol</option>
+            </select>
+            <br>
+            <br>
+            <label for="bio">COMMENT SECTION</label>
+            <br>
+            <textarea name="bio" id="bio" cols="30" rows="10" class="helo">Enter comments</textarea>
+            <br>
+            <br>
+            <input type="SUBMIT" name="SUBMIT" id="SUBMIT" value="SUBMIT" class="helo">
+            <br></br>
+            <label for="cc">TRIVIA: When was the first painting sold? (year)</label>
+            <input type="Text" name="cc" id="cc" min="0" max="100000000000" patern="[0-9]" >
+        </form>
+    </body>
+</html>

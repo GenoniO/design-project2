@@ -1,0 +1,43 @@
+*{
+    background-color:rgb(209, 200, 147);
+}
+
+body ol{
+    text-align: center;
+}
+table{
+    background-color: rgb(209, 200, 147);
+    border: solid rgb(2, 0, 0);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    width: 100%;
+    border-collapse: collapse;
+}
+td, tr{
+    border: solid rgb(133, 96, 48);
+    border-width: 2px;
+    line-height: 25px;
+    padding: 0%;
+    padding-right: 0%;
+    text-align: center;
+    padding-top: 2%;
+}
+mark{
+    background-color: yellow;
+    
+}
+
+h1{
+    font-size: 100px ;
+    text-align: center;
+}
+h2{
+    text-align: center;
+    font-size: 60px;
+}
+
+a{
+    font-size: 30px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-left: 1%;
+}
